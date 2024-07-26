@@ -5,6 +5,7 @@
 <p align="center"><img src="Illustration.png" width="700"/></p>
 
 # Updates
+- **(2024-07-26)** We released the code for Intel HPU training. 
 - **(2024-07-25)** Repo created. The code and datasets will be released in two weeks.
 
 
@@ -17,7 +18,7 @@ cd pretrained
 wget https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth
 ```
 
-# Scripts
+# Train
 
 ```sh
 python3 train_mask_var_hpu.py --batch_size $bs --dataset_name imagenetC --data_dir $path_to_ImageNetC --gpus $gpus  --output_dir $output_dir --multi_cond True --config configs/train_mask_var_ImageNetC_d12.yaml --var_pretrained_path pretrained/var_d12.pth
