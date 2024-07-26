@@ -539,7 +539,6 @@ def process(rank, world_size, args):
     seed_everything(rank)
 
     if rank == 0:
-        wandb.login(key='db60d37b5f7529afeab349ab23441b7888cceee6')
         if args.debug:
             wandb.init(project="Debug")
         else:

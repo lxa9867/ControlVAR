@@ -10,7 +10,6 @@ from time import time
 from datetime import datetime
 from tqdm.auto import tqdm
 import wandb
-wandb.login(key='db60d37b5f7529afeab349ab23441b7888cceee6')
 from PIL import Image 
 
 import torch
