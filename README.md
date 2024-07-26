@@ -2,7 +2,7 @@
 >
 > Xiang Li, Kai Qiu, Hao Chen, Jason Kuen, Zhe Lin, Rita Singh, Bhiksha Raj
 
-<p align="center"><img src="assets/Illustration.png" width="700"/></p>
+<p align="center"><img src="Illustration.png" width="700"/></p>
 
 # Updates
 - **(2024-07-25)** Repo created. The code and datasets will be released in two weeks.
