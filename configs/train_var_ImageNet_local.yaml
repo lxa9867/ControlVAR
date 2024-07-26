@@ -1,0 +1,33 @@
+# data
+
+#dataset_name: coco
+#data:
+#  annotation_path: /home/mcg/annotations/instances_train2017.json
+#  img_dir: /home/mcg/train2017
+#  image_size: 256
+
+dataset_name: imagenet
+data_dir: /voyager/ImageNet2012/train
+image_size: 256
+batch_size: 4
+num_workers: 8
+# training
+num_epochs: 100
+optimizer: adamw
+learning_rate: 1e-5
+weight_decay: 1e-4
+lr_scheduler: cosine
+lr_warmup_steps: 0.01
+log_interval: 50
+save_interval: epoch
+mixed_precision: no
+# vq model
+v_patch_nums: [1, 2, 3, 4, 5, 6, 8, 10, 13, 16]
+v_patch_layers: [1, 2, 3, 4, 5, 6, 8, 10, 13, 16]
+depth: 16
+embed_dim: 1024
+drop_path_rate: 0.1
+# condiiton model
+condition_model: class_embedder
+num_classes: 1000
+cond_drop_rate: 0.1
