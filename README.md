@@ -7,8 +7,7 @@
 # Updates
 - **(2024-07-25)** Repo created. The code and datasets will be released in two weeks.
 
-<<<<<<< HEAD
-=======
+
 # Setup
 
 Get pre-trained VQVAE from VAR
@@ -29,7 +28,6 @@ python3 train_mask_var_hpu.py --batch_size $bs --dataset_name imagenetC --data_d
 python3 train_mask_var_hpu.py --batch_size $bs --dataset_name imagenetC --data_dir $path_to_ImageNetC --gpus $gpus --output_dir $output_dir --multi_cond True --val_only True --resume $ckpt_path
 ```
 
->>>>>>> 582c55e (init code releasing)
 ## Citation
 ```
 @article{li2024controlvar,
