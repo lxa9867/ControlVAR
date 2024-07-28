@@ -18,6 +18,24 @@ cd pretrained
 wget https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth
 ```
 
+# Dataset
+
+The pseudo-labeled ImageNet dataset (mask, canny, depth, and normal) is available at [hugging-face](ang9867/ImageNet-C). Please download the original ImageNet2012 dataset from [official website](https://www.image-net.org/) and arrange the files in the following format.
+
+```
+ImageNet2012
+├── train
+├── val
+├── train_canny
+├── train_mask
+├── train_normal
+├── train_depth
+├── val_canny
+├── val_mask
+├── val_normal
+└── val_depth
+```
+
 # Train
 
 ```sh
