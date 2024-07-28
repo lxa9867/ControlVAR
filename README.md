@@ -35,6 +35,14 @@ ImageNet2012
 ├── val_normal
 └── val_depth
 ```
+# Pretrained models
+ID | Depth |  weight
+--- |:---: |:---:
+1 | 12 | placeholder
+2 | 16 | placeholder
+3 | 20 | placeholder
+4 | 24 | placeholder
+5 | 30 | placeholder
 
 # Train
 
