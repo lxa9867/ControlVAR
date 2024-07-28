@@ -20,7 +20,7 @@ wget https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.
 
 # Dataset
 
-The pseudo-labeled ImageNet dataset (mask, canny, depth, and normal) is available at [hugging-face](ang9867/ImageNet-C). Please download the original ImageNet2012 dataset from [official website](https://www.image-net.org/) and arrange the files in the following format.
+The pseudo-labeled ImageNet dataset (mask, canny, depth, and normal) is available at [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C). Please download the original ImageNet2012 dataset from [official website](https://www.image-net.org/) and arrange the files in the following format.
 
 ```
 ImageNet2012
