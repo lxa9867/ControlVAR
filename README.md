@@ -37,13 +37,13 @@ ImageNet2012
 └── val_depth
 ```
 # Pretrained models
-ID | Depth |  weight
---- |:---: |:---:
-1 | 12 | placeholder
-2 | 16 | placeholder
-3 | 20 | placeholder
-4 | 24 | placeholder
-5 | 30 | placeholder
+ID | Depth |  Prefix | Joint
+--- |:---: |:---: |:---:
+1 | 12 | placeholder | placeholder
+2 | 16 | placeholder | placeholder
+3 | 20 | placeholder | placeholder
+4 | 24 | placeholder | placeholder
+5 | 30 | placeholder | placeholder
 
 # Train
 
