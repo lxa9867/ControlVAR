@@ -6,7 +6,7 @@
 
 # Updates
 - **(2024-07-28)** We begin to upload the dataset (~400G) to [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C). 
-- **(2024-07-26)** We released the code for Intel HPU training. 
+- **(2024-07-26)** We released the code for Intel HPU training (GPU version will be supported soon). 
 - **(2024-07-25)** Repo created. The code and datasets will be released in two weeks.
 
 
