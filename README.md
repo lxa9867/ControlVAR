@@ -2,17 +2,19 @@
 >
 > Xiang Li, Kai Qiu, Hao Chen, Jason Kuen, Zhe Lin, Rita Singh, Bhiksha Raj
 
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2404.02905-b31b1b.svg)](https://arxiv.org/pdf/2406.09750)&nbsp;
+
 <p align="center"><img src="Illustration.png" width="700"/></p>
 
 # Updates
-- **(2024-07-28)** We begin to upload the dataset (~400G) to [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C). 
+- **(2024-07-28)** We begin to upload the dataset (~400G) to [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C) 🤗. 
 - **(2024-07-26)** We released the code for Intel HPU training (GPU version will be supported soon). 
 - **(2024-07-25)** Repo created. The code and datasets will be released in two weeks.
 
 
 # Setup
 
-Get pre-trained VQVAE from VAR
+Get pre-trained VQVAE from VAR.
 ```
 mkdir pretrained
 cd pretrained
@@ -21,7 +23,7 @@ wget https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.
 
 # Dataset
 
-The pseudo-labeled ImageNet dataset (mask, canny, depth, and normal) is available at [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C). Please download the original ImageNet2012 dataset from [official website](https://www.image-net.org/) and arrange the files in the following format.
+The pseudo-labeled ImageNet dataset (mask, canny, depth, and normal) is available at [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C) 🤗. Please download the original ImageNet2012 dataset from [official website](https://www.image-net.org/) and arrange the files in the following format.
 
 ```
 ImageNet2012
@@ -57,6 +59,7 @@ python3 train_control_var_hpu.py --batch_size $bs --dataset_name imagenetC --dat
 ```
 
 ## Citation
+If our work assists your research, feel free to give us a star ⭐ or cite us using:
 ```
 @article{li2024controlvar,
   title={ControlVAR: Exploring Controllable Visual Autoregressive Modeling},
