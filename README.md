@@ -39,13 +39,13 @@ ImageNet2012
 └── val_depth
 ```
 # Pretrained models
-ID | Depth |  Prefix | Joint
---- |:---: |:---: |:---:
-1 | 12 | placeholder | placeholder
-2 | 16 | placeholder | placeholder
-3 | 20 | placeholder | placeholder
-4 | 24 | placeholder | placeholder
-5 | 30 | placeholder | placeholder
+ID | Depth | Joint
+--- |:---: |:---:
+1 | 12 | [d12.pth](https://huggingface.co/qiuk6/ControlVAR/resolve/main/d12.pth)
+2 | 16 | [d16.pth](https://huggingface.co/qiuk6/ControlVAR/resolve/main/d16.pth)
+3 | 20 | [d20.pth](https://huggingface.co/qiuk6/ControlVAR/resolve/main/d20.pth)
+4 | 24 | [d24.pth](https://huggingface.co/qiuk6/ControlVAR/resolve/main/d24.pth)
+5 | 30 | [d30.pth](https://huggingface.co/qiuk6/ControlVAR/resolve/main/d30.pth)
 
 # Train
 
