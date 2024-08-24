@@ -7,8 +7,9 @@
 <p align="center"><img src="Illustration.png" width="700"/></p>
 
 # Updates
+- **(2024-08-23)** We released pretrained checkpoints.
 - **(2024-07-28)** We begin to upload the dataset (~400G) to [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C) 🤗. 
-- **(2024-07-26)** We released the code for Intel HPU training (GPU version will be supported soon). 
+- **(2024-07-26)** We released the code for Intel HPU training (GPU version is compatible). 
 - **(2024-07-25)** Repo created. The code and datasets will be released in two weeks.
 
 
@@ -20,6 +21,11 @@ mkdir pretrained
 cd pretrained
 wget https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth
 ```
+Install required packages.
+```
+pip install requirements.txt
+```
+
 
 # Dataset
 
