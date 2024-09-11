@@ -1,5 +1,4 @@
 from .vqvae import VQVAE
-from .vpa import VisualProgressAutoreg
 from .class_embedder import ClassEmbedder
 from .var import VAR
 from .control_var import ControlVAR
