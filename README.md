@@ -8,7 +8,7 @@
 
 # Updates
 - **(2024-08-23)** We released pretrained checkpoints.
-- **(2024-07-28)** We begin to upload the dataset (~400G) to [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C) 🤗. 
+- **(2024-07-28)** We begin to upload the dataset (~400G) to [hugging-face](https://huggingface.co/datasets/qiuk6/ImageNet2012_condition) 🤗. 
 - **(2024-07-26)** We released the code for Intel HPU training (GPU version is compatible). 
 - **(2024-07-25)** Repo created. The code and datasets will be released in two weeks.
 
@@ -29,7 +29,7 @@ pip install requirements.txt
 
 # Dataset
 
-The pseudo-labeled ImageNet dataset (mask, canny, depth, and normal) is available at [hugging-face](https://huggingface.co/datasets/ang9867/ImageNet-C) 🤗. Please download the original ImageNet2012 dataset from [official website](https://www.image-net.org/) and arrange the files in the following format.
+The pseudo-labeled ImageNet dataset (mask, canny, depth, and normal) is available at [hugging-face](https://huggingface.co/datasets/qiuk6/ImageNet2012_condition) 🤗. Please download the original ImageNet2012 dataset from [official website](https://www.image-net.org/) and arrange the files in the following format.
 
 
 ```
