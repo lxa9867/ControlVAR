@@ -133,12 +133,28 @@ ID | Depth | Joint
 # Train
 
 ```sh
-python3 train_control_var_hpu.py --batch_size $bs --dataset_name imagenetC --data_dir $path_to_ImageNetC --gpus $gpus  --output_dir $output_dir --multi_cond True --config configs/train_mask_var_ImageNetC_d12.yaml --var_pretrained_path pretrained/var_d12.pth
+python3 train_control_var_hpu.py
+--batch_size $bs
+--dataset_name imagenetC
+--data_dir $path_to_ImageNetC
+--gpus $gpus
+--output_dir $output_dir
+--multi_cond True
+--config configs/train_mask_var_ImageNetC_d12.yaml
+--var_pretrained_path pretrained/var_d12.pth
 ```
 
 # Inference
 ```angular2html
-python3 train_control_var_hpu.py --batch_size $bs --dataset_name imagenetC --data_dir $path_to_ImageNetC --gpus $gpus --output_dir $output_dir --multi_cond True --val_only True --resume $ckpt_path
+python3 train_control_var_hpu.py
+--batch_size $bs
+--dataset_name imagenetC
+--data_dir $path_to_ImageNetC
+--gpus $gpus
+--output_dir $output_dir
+--multi_cond True
+--val_only True
+--resume $ckpt_path
 ```
 
 ## Citation
