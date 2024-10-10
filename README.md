@@ -7,6 +7,7 @@
 <p align="center"><img src="Illustration.png" width="700"/></p>
 
 # Updates
+- **(2024-10-10)** Try our new image tokenizer [ImageFolder](https://lxa9867.github.io/works/imagefolder/index.html)🚀 for faster speed🔥, shorter length🔥 and better FID🔥!
 - **(2024-08-23)** We released pretrained checkpoints.
 - **(2024-07-28)** We begin to upload the dataset (~400G) to [hugging-face](https://huggingface.co/datasets/qiuk6/ImageNet2012_condition) 🤗. 
 - **(2024-07-26)** We released the code for Intel HPU training (GPU version is compatible). 
