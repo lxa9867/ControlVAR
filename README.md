@@ -24,7 +24,7 @@ wget https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.
 ```
 Install required packages.
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 
